@@ -1,0 +1,307 @@
+<div class="content">
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <!-- <span class="nav ">
+      <ul>
+        <li (click)="scroll(about)">About</li>
+
+        <li (click)="scroll(service)">Service</li>
+        <li (click)="scroll(client)">Clients </li>
+        <li (click)="scroll(client)">Feedback </li>
+        <li (click)="scroll(contact)">Contact</li>
+      </ul>
+ 
+  </span> -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li (click)="scroll(about)" class="nav-item ">
+         About
+        </li>
+        <li (click)="scroll(service)" class="nav-item">
+         Services
+        </li>
+        <li (click)="scroll(client)" class="nav-item">
+         Clients
+        </li>
+        <li (click)="scroll(contact)" class="nav-item">
+          Contact
+        </li>
+       
+        
+      </ul>
+     
+    </div>
+  </nav>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel">
+        <img src="../assets/cab1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Balaji Taxi</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item carousel">
+        <img src="../assets/home1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Balaji Taxi</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item carousel">
+        <img src="../assets/britain-19228_1920.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Balaji Taxi</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+  <div #about id="about">
+    <h2><span>About Us</span></h2>
+    <div class="aboutContent">
+      <div class="img">
+        <img src="../assets/taxiabout.png" alt="car image">
+      </div>
+      <div class="text">
+        
+        <!-- <h3>
+          Book your favourite Taxi and Cab in Delhi & Gurgoan</h3>
+          <p>Balaji Taxis is the fastest-growing taxi company. We are the number one company in <br>Delhi and Gurgoan Taxi area.
+             Simply call us or book online. We provide the best services,<br> we have experienced drivers and well maintained after 
+             taxis to provide great service <br>to all our clients and corporate. We provide safe and on-time service to each and every customer.</p>
+       -->
+       <h3>we are a professional Indian taxi company</h3>
+       <p id="aboutsub"> we are operating in 10 Indian Cities <br>
+        including Delhi,Gurgoan and Ghaziabad</p>
+       
+       <div id ="progress"><div class="progressbar1"></div></div>
+       <p>Customer Satisfaction   <span id="percent">100%</span></p>
+       <div id ="progress"> <div class="progressbar2"></div></div>
+       <p>Reaction Time <span id="percent">97%</span></p>
+       <div id ="progress"><div class="progressbar3"></div></div>
+       <p>City Coverage <span id="percent">89%</span></p>
+            </div>
+      <!-- <h3>Our Specialities</h3>
+      <img src="../assets/icons8-taxi-mobile-app-100.png"> -->
+    </div>
+  </div>
+  <div #service id="services">
+    <h2><span>Services</span></h2>
+    <!-- <div class="row1">
+      <div>
+        <span><b> AIRPORT TRANSPORTATION</b>
+          Duis tincidunt ornare semper.
+          <br>Phasellus velit purus, maximus sed leo eu,<br> porta aliquet sapienlibero
+        </span>
+        <br>
+        <br>
+
+        <span> <b>LUXURY TAXI SERVICE</b>
+          Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+          porta aliquet sapienlibero
+        </span>
+      </div>
+      <br>
+      <br>
+      <div><span><b>HOME PICK UP</b>
+          Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+          porta aliquet sapienlibero.</span>
+        <span>
+          <br>
+          <br>
+          <b>TOUR PACKAGE TRIPS</b>
+          Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+          porta aliquet sapienlibero
+        </span>
+      </div>
+
+      <img src="../assets/taxi2.jpeg">
+    </div> -->
+  
+    <div class="row1">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/taxi-driver-services-airport-professional-driving-car-cab-company-business-service-passengers-concept-vector-flat-cartoon-128383111.jpg" class="card-img-top" alt="...">
+        <div class="card-body cardbd">
+          <h5 class="card-title">Airport Services</h5>
+          <p class="card-text">Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+            porta aliquet sapienlibero</p>
+          <a href="#" class="btnsubmit">Book now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/demo1.png" class="card-img-top" alt="...">
+        <div class="card-body cardbd">
+          <h5 class="card-title">Tour Packages</h5>
+          <p class="card-text">Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+            porta aliquet sapienlibero</p>
+          <a href="#" class="btnsubmit">Book now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/mob.jpg" class="card-img-top" alt="...">
+        <div class="card-body cardbd">
+          <h5 class="card-title">Tour Packages</h5>
+          <p class="card-text">Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+            porta aliquet sapienlibero</p>
+          <a href="#" class="btnsubmit">Book now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/taxi-driver-services-city-professional-driving-car-cab-company-business-service-cityscape-concept-vector-flat-cartoon-128383109.jpg" class="card-img-top" alt="...">
+        <div class="card-body  cardbd">
+          <h5 class="card-title">Tour Packages</h5>
+          <p class="card-text">Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+            porta aliquet sapienlibero</p>
+          <a href="#" class="btnsubmit">Book now</a>
+        </div>
+      </div>
+      <!-- <img src="../assets/taxi.jpg">
+      <div class="card">
+        <div id="cardchild">
+        <h2>Home Pick Up</h2>
+        <p>  Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+          porta aliquet sapienlibero.</p></div>
+
+
+        <div>
+          <h2>Tour Packages</h2>
+         <p> Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+          porta aliquet sapienlibero</p>
+        </div>
+      </div> -->
+    </div>
+    <br>
+  
+  <!-- <div class="row1">
+    <div class="card">
+      <div><h2>Home Pick Up</h2>
+       <p> Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+        porta aliquet sapienlibero.</p></div>
+
+
+      <div>
+        <h2>Tour Packages</h2>
+     <p>   Duis tincidunt ornare semper.<br> Phasellus velit purus, maximus sed leo eu,<br>
+        porta aliquet sapienlibero</p>
+      </div>
+    </div>
+    <img src="../assets/taxi1.jpg" alt="">
+
+  </div> -->
+</div>
+
+<div #client id="clients">
+  <h2><span>Clients</span></h2>
+  <div class="company">
+    <img src="../assets/comapny1.jpg">
+    <img src="../assets/company2.jpg" alt="">
+    <img src="../assets/company3.jpg" alt="">
+  </div>
+</div>
+<div #contact class="contact">
+  <h2><span>Contact Us</span></h2>
+  <div class="contactRow">
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.867162811388!2d77.08452860691312!3d28.49430996525608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1939aa6004ef%3A0x3240c4c9cab262ab!2sCyber%20City%2C%20DLF%20Tower%208th%20Rd%2C%20DLF%20Cyber%20City%2C%20DLF%20Phase%202%2C%20Sector%2024%2C%20Gurugram%2C%20Haryana%20122002!5e0!3m2!1sen!2sin!4v1576954419380!5m2!1sen!2sin"
+      width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe><br>
+   <div class="card formcard">
+           <div class="form formsub">
+      <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div> -->
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div> -->
+        <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div> -->
+        <input type="number" class="form-control" placeholder="Telephone" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+     
+      <!-- <textarea rows="4" cols="50"></textarea> -->
+      <div class="input-group">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text">Message</span>
+        </div> -->
+        <textarea class="form-control" placeholder="Message" aria-label="With textarea"></textarea>
+      </div>
+      <br>
+      <button type="button" class="btnsubmit">Submit</button>
+    </div>
+  </div>
+
+  </div>
+</div>
+<div class="footer">
+  <div class="container footersub">
+    <div class="row">
+      <div class="col-lg-5 col-xs-12 about-company">
+        <h4>Heading</h4>
+        <p class="pr-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+        <div class="footer-custom">
+      <div class="social-media">
+        <a class= "btn" href ="https://www.facebook.com/anubhavm1995" target="_blank">	
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a class= "btn" href = "https://instagram.com/anubhavm1995" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a class= "btn" href = "https://twitter.com/anubhavm1995" target="_blank">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        
+      </div>
+    </div>
+      </div>
+      <div class="col-lg-3 col-xs-12 links">
+        <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+          <ul class="m-0 p-0">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Nam mauris velit</a></li>
+            <li><a href="#">Etiam vitae mauris</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-4 col-xs-12 location">
+        <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+        <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+        <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col copyright">
+        <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
